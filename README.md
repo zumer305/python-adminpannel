@@ -11,10 +11,28 @@ A small Django 5.2 project with a custom `accounts` app and a custom user model.
 
 ## Project Structure
 
-- `myproject/manage.py` - Django management entry point
-- `myproject/myproject/` - Project settings and URL configuration
-- `myproject/accounts/` - Custom user app
-- `myproject/db.sqlite3` - Local SQLite database
+```text
+python-adminpannel/
+├── README.md
+├── info.txt
+└── myproject/
+   ├── manage.py
+   ├── db.sqlite3
+   ├── accounts/
+   │   ├── __init__.py
+   │   ├── admin.py
+   │   ├── apps.py
+   │   ├── models.py
+   │   ├── tests.py
+   │   ├── urls.py
+   │   └── views.py
+   └── myproject/
+      ├── __init__.py
+      ├── asgi.py
+      ├── settings.py
+      ├── urls.py
+      └── wsgi.py
+```
 
 ## Requirements
 
